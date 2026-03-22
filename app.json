@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "RepZone",
+    "slug": "repzone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.jpeg",
+    "android": {
+      "package": "com.u065.repzone"
+    }
+  }
+}
