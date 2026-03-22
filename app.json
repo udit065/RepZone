@@ -7,6 +7,11 @@
     "icon": "./assets/favicon.jpeg",
     "android": {
       "package": "com.u065.repzone"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a23d747-68a0-41ed-9c87-f12e2b868446"
+      }
     }
   }
 }
