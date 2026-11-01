@@ -1,71 +1,26 @@
-# Sample Snack app
+# 💪 RepZone
 
-💪 RepZone
+> **Train anywhere. Stay consistent.**
 
-RepZone is a simple and clean home workout mobile app built using React Native (Expo).
-It helps users explore exercises by body part with visual GIF guidance — no gym, no equipment.
+RepZone is a clean home-workout app built with React Native (Expo). Pick a body part, browse the exercises for it, and follow GIF demonstrations. You don't need a gym or any equipment.
 
-🚀 Features
-🧱 Body Part Categories
-Biceps, Triceps, Chest, Legs, Shoulders, Abs, Back
-🎯 Exercise List per Body Part
-Each category opens a list of exercises
-🖼️ GIF-Based Guidance
-Visual demonstration using online exercise GIFs
-🌙 Dark Theme UI
-Clean, modern, and easy on the eyes
-📱 Responsive Grid Layout
-Square cards with icons for better UX
-⚡ No Backend / No Database
-Fully static app using local data
+## Features
+- 🧱 **Body-part categories:** biceps, triceps, chest, legs, shoulders, abs and back
+- 🎯 **Exercise list** for each body part
+- 🖼️ **GIF guidance** for every exercise
+- 🌙 **Dark theme** (`#0f172a`) with a neon accent (`#00ffcc`)
+- 📱 **Responsive grid** of square cards with icons
+- ⚡ **Works offline:** a fully static app with local data and no backend
 
-🛠️ Tech Stack
-React Native (Expo)
-React Navigation
-Expo Vector Icons
+## Tech stack
+React Native · Expo · React Navigation (native stack) · React Native Paper · Expo Vector Icons · Expo AV
 
-▶️ Getting Started
-1. Open in Expo Snack
-
-Go to: https://snack.expo.dev
-
-OR run locally:
-
-2. Install dependencies
+## Run locally
+```bash
 npm install
-3. Start the app
 npx expo start
-📸 Screens
-🏠 Home Screen
-Grid layout of body parts
-Icons + labels
-💪 Exercise Screen
-List of exercises
-GIF demonstration
-🎨 App Design
-Dark theme (#0f172a)
-Card-based UI
-Neon accent color (#00ffcc)
+```
+Open it in Expo Go, or build an APK with `eas build -p android` (`eas.json` is included).
 
-📱 App Name
-
-RepZone
-"Train anywhere. Stay consistent."
-
-🤝 Contributing
-
-Feel free to fork this project and improve it!
-
-📤 Sharing
-
-You can share the app using:
-
-Expo Go link
-APK build (Expo EAS)
-📄 License
-
-This project is open-source and free to use.
-
-🙌 Author
-
-Built by a developer focused on improving consistency and learning through real projects.
+## Author
+**Udit Yadav** · [GitHub](https://github.com/udit065) · [LinkedIn](https://www.linkedin.com/in/udit-yadav065)
